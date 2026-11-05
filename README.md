@@ -101,7 +101,7 @@ Each admin contains the following fields:
 Start the server using:
 
 ```bash
-npm run dev
+npm run start
 ```
 
 The server will run on:
