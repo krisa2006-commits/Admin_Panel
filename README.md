@@ -96,47 +96,6 @@ Each admin contains the following fields:
 
 **Note:** Admin CRUD APIs require Bearer Token authentication.
 
-## Example Admin
-
-```json
-{
-  "name": "Admin",
-  "email": "admin@gmail.com",
-  "password": "your_password"
-}
-```
-
-## Environment Variables
-
-Create a `.env` file in the root directory:
-
-```env
-PORT=5000
-MONGODB_URL=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-JWT_EXPIRE=1d
-```
-
-## Installation
-
-Clone the repository and install dependencies:
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_LINK
-```
-
-Open the project folder:
-
-```bash
-cd Admin_Panel
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
 ## Run the Project
 
 Start the server using:
